@@ -1,0 +1,9 @@
+.about-me {
+    border: 2px solid lightgray;
+}
+
+.connect-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
