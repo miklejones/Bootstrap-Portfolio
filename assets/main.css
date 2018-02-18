@@ -7,3 +7,10 @@
     width: 50px;
     margin-right: 5px;
 }
+
+.copyright {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-top: 2px solid lightgray;
+}
