@@ -1,3 +1,9 @@
+body {
+    background: url(assets/images/offwhitebg.jpg);
+    background-repeat: repeat !important;
+    margin-bottom: 80px;
+}
+
 .about-me {
     border: 2px solid lightgray;
 }
@@ -8,9 +14,87 @@
     margin-right: 5px;
 }
 
+.navbar-brand, h1, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topbar {
+    height: 60px;
+    line-height: 60px;
+}
+
+.navbar-custom {
+    border-bottom: 2px solid lightgray;
+}
+
 .copyright {
     height: 60px;
     text-align: center;
     line-height: 60px;
-    border-top: 2px solid lightgray;
+    border-top: 5px solid #4aaaa5;
+}
+
+.navbar-custom {
+    background-color: #4aaaa5;
+   }
+
+.navbar-custom-2 {
+    background-color:#666;
+    color: #777;
+    font-size: 18px;
+   }
+
+.stuff {
+    margin-bottom: 100px;
+}
+
+.profile-pic {
+    margin-bottom: 5px;
+}
+
+.bio {
+    margin: 0 10px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.abm {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cwm {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.teal {
+    color:  #4aaaa5;
+}
+
+.white:link {
+    color: white;
+    background-color:  #4aaaa5;
+}
+
+/* visited link */
+.white:visited {
+    color: white;
+    background-color:  #4aaaa5;
+}
+
+/* mouse over link */
+.white:hover {
+    color: white;
+    background-color:  #4aaaa5 !important;
+}
+
+/* selected link */
+.white:active {
+    color: white;
+    background-color:  #4aaaa5;
 }
