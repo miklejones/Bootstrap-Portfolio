@@ -100,20 +100,24 @@ body {
 .btn-send {
     background-color: #4aaaa5;
     border: none;
+    color: white;
 }
 
 .btn-send:hover {
     background-color: #4aaaa5;
     border: none;
+    color: white;
 }
 .btn-send:active {
     background-color: #4aaaa5;
     border: none;
+    color: white;
 }
 
 .btn-send:visited {
     background-color: #4aaaa5;
     border: none;
+    color: white;
 }
 
 /*Connect With Me*/
