@@ -1,4 +1,6 @@
-
+html {
+    background-image: url('https://3.bp.blogspot.com/-3JzsqtVmmGo/UxSryP2dN8I/AAAAAAAAF7c/VL9Fb5_qFhw/s1600/seamless-light-gray-material-background.jpg');
+  }
 
 body {
     background: url(assets/images/offwhitebg.jpg);
@@ -81,17 +83,17 @@ body {
 
 .project-title {
     background-color: #4aaaa5;
-    width: 50%;
+    width: 75%;
     height: 40px;
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 40px;
     margin: auto;
 }
 
 .centered {
     position: absolute;
-    top: 50%;
+    bottom: 15%;
     text-align: center;
 }
 
