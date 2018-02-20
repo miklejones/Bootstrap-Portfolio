@@ -97,7 +97,24 @@ body {
     text-align: center;
 }
 
+.btn-send {
+    background-color: #4aaaa5;
+    border: none;
+}
 
+.btn-send:hover {
+    background-color: #4aaaa5;
+    border: none;
+}
+.btn-send:active {
+    background-color: #4aaaa5;
+    border: none;
+}
+
+.btn-send:visited {
+    background-color: #4aaaa5;
+    border: none;
+}
 
 /*Connect With Me*/
 .connect-icon {
