@@ -8,6 +8,10 @@ body {
     background-image: url("images/offwhitebg.jpg");
 }
 
+a {
+    text-decoration: none !important;
+}
+
 
 
 /*Navbar Fixes*/
@@ -23,6 +27,7 @@ body {
 .navbar-custom {
     border-bottom: 2px solid lightgray;
     background-color: #4aaaa5;
+    font-size: 18px;
 }
 
 .navbar-custom-2 {
@@ -33,13 +38,13 @@ body {
 
 .white:link {
     color: white;
-    background-color:  #4aaaa5;
+    background-color:  #4aaaa5 !important;
 }
 
             /* visited link */
 .white:visited {
     color: white;
-    background-color:  #4aaaa5;
+    background-color:  #4aaaa5 !important;
 }
 
             /* mouse over link */
@@ -51,7 +56,7 @@ body {
             /* selected link */
 .white:active {
     color: white;
-    background-color:  #4aaaa5;
+    background-color:  #4aaaa5 !important;
 }
 
 .navbar-brand {
@@ -73,8 +78,10 @@ body {
 }
 
 .prof-pic {
-    margin-bottom: 5px;
-    border-radius: 15%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 0 !important;
 }
 
 .bio {
@@ -84,17 +91,18 @@ body {
 
 .project-title {
     background-color: #4aaaa5;
-    width: 75%;
+    width: 100%;
     height: 40px;
     color: white;
     font-size: 18px;
     line-height: 40px;
     margin: auto;
+    text-decoration: none !important;
 }
 
 .centered {
-    position: absolute;
-    bottom: 15%;
+    position: relative;
+    bottom: 70px;
     text-align: center;
 }
 
