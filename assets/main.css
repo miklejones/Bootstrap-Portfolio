@@ -74,6 +74,7 @@ body {
 
 .prof-pic {
     margin-bottom: 5px;
+    border-radius: 15%;
 }
 
 .bio {
@@ -125,6 +126,7 @@ body {
     height: 50px;
     width: 50px;
     margin-right: 5px;
+    text-decoration: none !important;
 }
 
 .stuff {
