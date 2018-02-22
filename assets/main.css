@@ -85,7 +85,6 @@ a {
 }
 
 .bio {
-    margin: 0 10px 10px 10px;
     font-size: 16px;
 }
 
@@ -98,6 +97,10 @@ a {
     line-height: 40px;
     margin: auto;
     text-decoration: none !important;
+}
+
+img.project-icon:hover {
+    opacity: 0.5 !important;
 }
 
 .centered {
@@ -115,7 +118,6 @@ a {
 .btn-send:hover {
     background-color: #4aaaa5;
     border: none;
-    color: white;
 }
 .btn-send:active {
     background-color: #4aaaa5;
@@ -135,6 +137,10 @@ a {
     width: 50px;
     margin-right: 5px;
     text-decoration: none !important;
+}
+
+.connect-icon:hover {
+    opacity: 0.5;
 }
 
 .stuff {
